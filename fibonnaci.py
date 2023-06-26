@@ -4,6 +4,7 @@ def fibonacci(n):
         series.append(series[-1]+ series[-2])
     return series
 
-fibonacci_series = fibonacci(10)
+# Generate the Fibonacci sequence with 10 terms
+fibonacci_sequence = fibonacci(40)
 
-print(fibonacci_series)
+print(fibonacci_sequence)
